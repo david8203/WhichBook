@@ -41,7 +41,7 @@
                 android:text="See all Books" />
 
             <Button
-                android:id="@+id/btnCurrent"
+                android:id="@+id/btnCurrentlyReading"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/btnAllBooks"
@@ -54,7 +54,7 @@
                 android:id="@+id/btnWantTo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/btnCurrent"
+                android:layout_below="@+id/btnCurrentlyReading"
                 android:fontFamily="sans-serif-thin"
                 android:textSize="20dp"
                 android:layout_marginTop="20dp"
