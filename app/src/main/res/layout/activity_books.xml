@@ -6,8 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".AllBooksActivity">
 
-    <ListView
+    <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/booksListView"/>
+        android:id="@+id/booksRecyclerView"/>
 </RelativeLayout>
