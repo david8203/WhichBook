@@ -54,6 +54,7 @@ public class BooksRecyclerViewAdapter extends RecyclerView.Adapter<BooksRecycler
     }
     //INNER CLASS
     //the view holder is responsible for creating every instance of the elements in our recycler view
+
     public class viewHolder extends RecyclerView.ViewHolder {
         private ImageView bookImage;
         private TextView bookName;
@@ -62,5 +63,11 @@ public class BooksRecyclerViewAdapter extends RecyclerView.Adapter<BooksRecycler
             bookImage = (ImageView) itemView.findViewById(R.id.bookImage);
             bookName =(TextView) itemView.findViewById(R.id.bookName);
         }
+    }
+    //passing items to this adapter
+    public void setBooks(ArrayList<Book> books) {
+        this.books = books;
+        // notifies the adapter that its data has changed
+        notifyDataSetChanged();
     }
 }
