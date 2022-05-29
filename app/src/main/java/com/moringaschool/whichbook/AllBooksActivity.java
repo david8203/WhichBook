@@ -31,5 +31,6 @@ public class AllBooksActivity extends AppCompatActivity {
         books.add(new Book("Rich Dad Poor Dad","Robert T. Kiyosaki and Sharon Lechter","http://www.richdad.com/MediaLibrary/RichDad/images/book-covers/book-rich-dad-poor-dad.jpg","It advocates the importance of financial literacy, financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence",241));
         books.add(new Book("OutLander","Diana Gabaldon","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpKI_hRR5C6JkRcw0MR6xMDufiy5JRsQAOkinacljr&usqp=CAE&s","it focuses on nurse Claire Beauchamp, who travels through time to 18th-century Scotland, where she finds adventure and romance with the dashing Jamie Fraser",250));
 
+        adapter.setBooks(books);
     }
 }
